@@ -58,6 +58,11 @@
 #include <sys/sysinfo.h>
 #endif
 
+// patches for osx
+#ifdef __APPLE__
+#define FNM_EXTMATCH 0x02
+#endif
+
 #include <squashfs_fs.h>
 #include "mksquashfs.h"
 #include "global.h"

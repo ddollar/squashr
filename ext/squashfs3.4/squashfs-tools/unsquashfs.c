@@ -56,6 +56,12 @@
 #include <endian.h>
 #endif
 
+// patches for osx
+#ifdef __APPLE__
+#define FNM_EXTMATCH 0x02
+#include <sys/sysctl.h>
+#endif
+
 #include "squashfs_fs.h"
 #include "read_fs.h"
 #include "global.h"
