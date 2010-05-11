@@ -58,8 +58,7 @@ Gem::Specification.new do |s|
   ## THE MANIFEST COMMENTS, they are used as delimiters by the task.
   # = MANIFEST =
   s.files = %w[
-    LICENSE
-    README
+    README.rdoc
     Rakefile
     bin/squashr
     ext/squashfs3.4/ACKNOWLEDGEMENTS
