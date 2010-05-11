@@ -1,0 +1,4 @@
+ext/squashfs3.4/squashfs-tools/mksquashfs
+ext/squashfs3.4/squashfs-tools/unsquashfs
+pkg/
+
