@@ -58,6 +58,10 @@ Gem::Specification.new do |s|
   ## THE MANIFEST COMMENTS, they are used as delimiters by the task.
   # = MANIFEST =
   s.files = %w[
+    LICENSE
+    README
+    Rakefile
+    bin/squashr
     ext/squashfs3.4/ACKNOWLEDGEMENTS
     ext/squashfs3.4/CHANGES
     ext/squashfs3.4/COPYING
@@ -95,6 +99,8 @@ Gem::Specification.new do |s|
     ext/squashfs3.4/squashfs-tools/sort.h
     ext/squashfs3.4/squashfs-tools/squashfs_fs.h
     ext/squashfs3.4/squashfs-tools/unsquashfs.c
+    lib/squashr.rb
+    squashr.gemspec
   ]
   # = MANIFEST =
 
