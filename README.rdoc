@@ -1,0 +1,24 @@
+= Squashr
+
+Create SquashFS volumes
+
+== Installation
+
+To install:
+
+    $ gem install squashr
+
+== Usage
+
+    $ squashr /source/dir /target/file
+
+    >> require 'squashr'
+    >> Squashr.squash("/source/dir", "/target/file")
+
+== License
+
+MIT
+
+== Copyright
+
+Copyright (c) 2010 David Dollar.
