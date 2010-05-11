@@ -1,2 +1,7 @@
 #!/usr/bin/env ruby
 
+$:.unshift File.expand_path("../../lib", __FILE__)
+
+require "squashr"
+
+Squashr.squash(ARGV[0], ARGV[1])
